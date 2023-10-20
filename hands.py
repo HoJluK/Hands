@@ -3,9 +3,9 @@ import time
 import re
 
 def extract_phone_numbers(url):
-    driver = webdriver.Chrome()  # Укажите путь к драйверу вашего браузера
+    driver = webdriver.Chrome()  
     driver.get(url)
-    time.sleep(2)  # Подождите, чтобы страница полностью загрузилась
+    time.sleep(2)  
 
     phone_numbers = set()  # Множество для хранения уникальных номеров
 
